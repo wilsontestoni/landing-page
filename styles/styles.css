@@ -1,0 +1,457 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif ;
+}
+
+.container1 {
+  max-width: 1600px;
+  margin: auto;
+}
+
+/* ========= HEADER =========== */
+
+.header-container {
+  background-color: #63503B;
+  height: 120px;
+  padding: 10px;  
+  font-size: 1.09em;
+  box-shadow: 0 0 7px #63503bc0;
+}
+
+.img-header {
+  height: 65px;
+  width: 65px;
+}
+
+.paginas-style {
+  color: #E49542;
+  font-weight: bold;
+}
+
+#navbarSupportedContent > ul li {
+  padding-left: 15px;
+}
+
+nav .nav-link {
+  font-weight: bold;
+  color: #E49542;
+}
+
+nav .nav-link:hover {
+  color: #ffc689;
+}
+
+#navbarSupportedContent > ul > li:last-child > .btn-primary {
+  background-color: #E49542;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0px 0px 20px #E49542;
+}
+
+#navbarSupportedContent > ul > li:last-child > .btn-primary:hover {
+  background-color: #fcba74;
+}
+
+/* xxxxxxxxx HEADER xxxxxxxxx */
+
+/* ========= MAIN ============ */
+
+/* ========= CHAMADA ============ */
+
+.container-chamada {
+  max-width: 1100px;
+  margin: 180px auto 220px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.chamada-texto {
+  background-color: #e2d2c331;
+  text-align: center;
+  height: 500px;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chamada-texto > h1 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.274);
+  font-size: 45px;
+  color: #eb7100;
+  font-weight: bold;
+}
+
+.chamada-texto > p {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.chamada-imagem {
+  background-color: #e2d2c331;
+  height: 500px;
+  width: 550px;
+}
+
+.chamada-imagem > img {
+  margin: 0 auto;
+  display: block;
+  margin-top: 15px;
+  width: 470px;
+}
+
+/* xxxxxxxxx CHAMADA xxxxxxxxx */
+
+/* ========= VANTAGENS ============ */
+
+.container-vantagens {
+  background-image: linear-gradient(to right, #63411D 30%, #B07433);
+  box-shadow: 0 0 7px #63503bc0;
+  height: 550px;
+  width: 100%;
+  padding-top: 40px;
+  margin-bottom: 200px;
+  margin-top: 150px;
+}
+
+.vantagens {
+  margin: auto;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.vantagens h2 {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+
+.vantagens h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.vantagens > ul {
+  padding: 0;
+  margin: auto;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.primeira-vantagem,
+.segunda-vantagem,
+.terceira-vantagem {
+  background-color: #f7e8cc;
+  border-radius: 10px ;
+  height: 370px;
+  width: 350px;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagem-container {
+  background-color: #ecc69dc4;
+  width: 85px;
+  height: 85px;
+  border-radius: 30%;
+  margin: 5px 0 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primeira-vantagem > h3,
+.segunda-vantagem > h3,
+.terceira-vantagem > h3 {
+  padding-bottom: 10px;
+}
+
+.terceira-vantagem > .image-container > img {
+  margin-left: 5px;
+}
+
+/* xxxxxxxxx VANTAGENS xxxxxxxxx */
+
+/* ========= CARROSSEL ============ */
+
+.livros-destaques {
+  height: 630px;
+  width: 100%;
+  background-color: #E49542;
+  box-shadow: 0 0 10px #e4964265;
+  background-image: linear-gradient(to left, rgb(211, 137, 26) 10%, transparent);
+}
+
+.livros-destaques h2 {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  padding: 20px 0px;
+}
+
+.cards-wrapper {
+  margin: auto;
+  max-width: 1000px;
+  display: flex;
+}
+
+#carouselExampleIndicators {
+  height: 470px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.144);
+}
+
+.card {
+  width: 300px; 
+  padding: 10px;
+  margin: 0 20px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-body h5 {
+  font-weight: bold;
+}
+
+.card-body a {
+  background-color: #E49542;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px rgba(255, 143, 39, 0.74);
+  border: none;
+}
+
+.card-body a:hover {
+  background-color: #ffb96d;
+}
+
+/* xxxxxxxxx CARROSSEL  xxxxxxxxx */
+
+/* ========= INPUT ============ */
+
+.container-input-email > h3 {
+  margin: 20px;
+}
+
+.container-input-email > form > div {
+  width: 70%;
+  height: 45px;
+  margin: auto;
+  margin-bottom: 15px;
+  background-color: #E49542;
+  border-radius: 50px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.226);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input[type=email] {
+  width: 95%;
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+  padding-left: 15px;
+} 
+
+form button {
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  height: 45px;
+  width: 150px;
+  background-color: #E49542;
+  box-shadow: 1px 1px 10px rgba(255, 143, 39, 0.74);
+  border-radius: 40px;
+  margin: 10px 0 170px 0;
+}
+
+form button:hover {
+  background-color: #ffb96d;
+} 
+
+.container-input-email {
+  margin-top: 160px;
+  text-align: center;
+}
+
+/* xxxxxxxxx INPUT  xxxxxxxxx */
+
+/* xxxxxxxxx MAIN  xxxxxxxxx */
+
+/* ========= FOOTER ============ */
+
+footer {
+  background-color: #63503B;
+  box-shadow: 0 0 7px #63503bc0;
+  color: #E49542;
+  padding: 10px;
+}
+
+footer h4 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.footer-container{
+  padding: 10px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container > img {
+  height: 180px;
+  width: 180px;
+}
+
+.footer-conteudo {
+  display: flex;
+  gap: 70px
+}
+
+.footer-conteudo p {
+  margin-bottom: 8px;
+  color: #e8ba89a2;
+}
+
+.footer-conteudo > div > h4 > a {
+  text-decoration: none;
+  color: #E49542;
+}
+
+.footer-conteudo > div > h4 > a:hover {
+  color: #ffc689;
+}
+
+.footer-parceiros a {
+  text-decoration: none;
+}
+
+.footer-parceiros a:hover {
+  text-decoration: underline;
+  text-decoration-color: #E49542;
+}
+
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icon {
+  font-size: 28px; 
+  color:#E49542; 
+  margin-right: 10px;
+}
+
+.social-icon:hover {
+  color: #ffc689;
+}
+
+.footer-end > p {
+  font-size: 14px; 
+  padding-top: 10px;
+}
+
+/* xxxxxxxxx FOOTER xxxxxxxxx */
+
+/* ========= MEDIA QUERIES ============ */
+
+ @media (max-width: 1187px) {
+
+  .chamada-imagem {
+    display: none;
+  }
+
+  .chamada-texto {
+    background-color: #e2d2c331;
+    text-align: center;
+    height: 500px;
+    width: 600px;
+    border-radius: 20px;
+    transition: .5s;
+  }
+
+  .cards-wrapper {
+    justify-content: center;
+  }
+
+  .card:first-child{
+    display: none;
+  }
+
+  .vantagens {
+    height: 100%;
+  }
+
+  .vantagens > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .container-vantagens {
+    height: 100%;
+    padding-bottom: 40px;
+  } 
+}
+
+@media (max-width: 991px){
+  .container-header-img {
+    display: none;
+  }
+
+  .container-button {
+    background-color: #f8ae5f;
+    box-shadow: 0 0 10px #E49542;
+    border: 1px solid rgba(0, 0, 0, 0.692);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 793px) {
+  .card:last-child{
+    display: none;
+  }
+
+  .footer-container {
+    padding-left: 0;
+  }
+
+  .footer-container > img {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+@media (max-width: 655px) {
+  .footer-container > img {
+    display: none;
+  }
+
+  .footer-conteudo {
+    margin: auto;
+    gap: 15px;
+  }
+}
